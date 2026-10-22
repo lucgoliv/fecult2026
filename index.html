@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Soundboard - FECULT 2026</title>
+    <meta name="theme-color" content="#000000">
+    <meta property="og:title" content="Soundboard - FECULT 2026">
+    <meta property="og:description" content="Soundboard - FECULT 2026">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Soundboard - FECULT 2026">
+</head>
+
+<body>
+    <span class="help" onclick="this.remove()">
+        1: Campanha de Teatro<br>
+        2: Som de Natureza (Comadre Fulozinha)<br>
+        3: Cordel Encantado<br>
+        4: Vidas Secas<br>
+        5: Intro (O Auto da Compadecida)<br>
+        6: Entrada de Maria<br>
+        7: Gaita João Grilo<br><br>
+        Aperte as teclas numéricas ou nos botões usando o mouse para tocar/pausar o som.<br><br>
+        Aperte espaço ou o botão "PARAR" para parar o som atual.<br><br>
+        Clique aqui para apagar essa mensagem.
+    </span>
+    <div class="container">
+        <div class="app">
+            <button id="1" class="sound play">1</button>
+            <button id="2" class="sound play">2</button>
+            <button id="3" class="sound play">3</button>
+            <button id="4" class="sound play">4</button>
+            <button id="5" class="sound play">5</button>
+            <button id="6" class="sound play">6</button>
+            <button id="7" class="sound play">7</button>
+        </div>
+        <button id="stop">PARAR</button>
+        <input id="volume" type="range" min="0" max="1000">
+    </div>
+</body>
+<script src="index.js"></script>
+
+</html>
